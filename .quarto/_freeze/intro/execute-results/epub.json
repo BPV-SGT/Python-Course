@@ -1,8 +1,8 @@
 {
-  "hash": "ddbdfe31736ad5d94e938b9ec11b392b",
+  "hash": "2392730a87fcf6162ffdb154a406ab11",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: Basic Python Programming\nsubtitle: Dynamic evaluation of user provided code and data visualisation\nformat: html\nfilters:\n  - pyodide\njupyter: python3\nexecute: \n  enabled: true\n\n---\n\n\n\n\n\n\n\n\n\nThis is a book created from markdown and executable code.\n\nSee @knuth84 for additional discussion of literate programming.\n\n```{pyodide-python}\na=10\nprint(a)\n```\n\n",
+    "markdown": "---\ntitle: Basic Python Programming\nsubtitle: Dynamic evaluation of user provided code and data visualisation\nformat: html\nfilters:\n  - pyodide\njupyter: python3\nexecute: \n  enabled: true\n\n---\n\n\n\n\n\n\n\n\n\n\n\n\nThis is a book created from markdown and executable code.\n\nSee @knuth84 for additional discussion of literate programming.\n\n```{pyodide-python}\na=10\nprint(a)\n```\n\n## Examples\n\n** Program 1:** Write a `Python` to print Hai.\n\n::: {#8ef5af48 .cell execution_count=1}\n``` {.python .cell-code}\nprint(\"Hai\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nHai\n```\n:::\n:::\n\n\n:::{.panel-tabset}\n## Syntax\n\n```{.python}\n# to print a string \"prompt\"\nprint(\"prompt\")\n# to print the value of variable\nprint(variable)\n```\n\n## DIY\n\n```{pyodide-python}\nprint(\"prompt\")\nvariable=10\nprint(variable)\n```\n\n** Program 2:** Write a `Python` program to find the sum of two numbers\n\n:::{.panel-tabset}\n## Syntax\n\n```{.python}\n# to print a string \"prompt\"\nprint(\"prompt\")\n# to print the value of variable\nprint(variable)\n```\n** Program 2:** Write a `Python` program to find the sum of two numbers\n\n## DIY\n\n```{pyodide-python}\na=25\nb=35\n\nsum=a+b\nprint(sum)\n```\n\n```{pyodide-python}\n# Note: change this value for a different result\nnum = 8 \n\n# To take the input from the user\n#num = float(input('Enter a number: '))\n\nnum_sqrt = num ** 0.5\nprint('The square root of %0.3f is %0.3f'%(num ,num_sqrt))\n\n",
     "supporting": [
       "intro_files\\figure-epub"
     ],

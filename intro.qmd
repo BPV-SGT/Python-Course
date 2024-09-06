@@ -19,3 +19,62 @@ See @knuth84 for additional discussion of literate programming.
 a=10
 print(a)
 ```
+
+## Examples
+
+** Program 1:** Write a `Python` to print Hai.
+
+```{python}
+print("Hai")
+```
+
+:::{.panel-tabset}
+## Syntax
+
+```{.python}
+# to print a string "prompt"
+print("prompt")
+# to print the value of variable
+print(variable)
+```
+
+## DIY
+
+```{pyodide-python}
+print("prompt")
+variable=10
+print(variable)
+```
+
+** Program 2:** Write a `Python` program to find the sum of two numbers
+
+:::{.panel-tabset}
+## Syntax
+
+```{.python}
+# to print a string "prompt"
+print("prompt")
+# to print the value of variable
+print(variable)
+```
+** Program 2:** Write a `Python` program to find the sum of two numbers
+
+## DIY
+
+```{pyodide-python}
+a=25
+b=35
+
+sum=a+b
+print(sum)
+```
+
+```{pyodide-python}
+# Note: change this value for a different result
+num = 8 
+
+# To take the input from the user
+#num = float(input('Enter a number: '))
+
+num_sqrt = num ** 0.5
+print('The square root of %0.3f is %0.3f'%(num ,num_sqrt))

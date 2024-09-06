@@ -10,6 +10,7 @@ book:
   date: "16 August, 2024"
   chapters:
     - index.qmd
+    - course_outline.qmd
     - intro.qmd
     - programs.qmd
     - summary.qmd
